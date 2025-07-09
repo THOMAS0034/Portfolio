@@ -1,0 +1,11 @@
+.rotating-text {
+  display: inline-block;
+  font-weight: bold;
+  font-size: inherit;
+}
+
+.rotating-text-wrapper {
+  height: 1em;
+  position: relative;
+  overflow: hidden;
+}
