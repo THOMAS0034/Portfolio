@@ -53,7 +53,7 @@ function Form() {
               <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
               <p className="mb-6">Fill up the form and then click send message</p>
               <ul className="space-y-4 text-sm">
-                <li className="flex items-center gap-2">📞 +91 9876543210</li>
+                <li className="flex items-center gap-2">📞 +91 9895163374</li>
                 <li className="flex items-center gap-2">✉️ thomasryan12a@gmail.com</li>
                 <li className="flex items-center gap-2">📍 Kerala, India</li>
               </ul>
