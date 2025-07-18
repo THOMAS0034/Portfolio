@@ -14,7 +14,7 @@ function Footer() {
           </span>
 
           {/* Center - Social Icons */}
-          <div className="flex justify-center gap-6 ml-25 text-xl">
+          <div className="flex justify-center gap-6 text-xl">
             <a href="https://www.instagram.com/0.ryan0?igsh=NTEwb3FqaWNudXd1" className="hover:text-pink-400">
               <FaInstagram />
             </a>
