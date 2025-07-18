@@ -1,5 +1,6 @@
 import React from "react";
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -28,13 +29,10 @@ function Footer() {
           {/* Right - Navigation Links */}
           <ul className="flex flex-wrap justify-center items-center text-sm font-medium text-gray-400 gap-4">
             <li>
-              <p className="cursor-pointer hover:underline">About Me</p>
+              <Link to={"/projects"}><p className="cursor-pointer hover:underline">Projects</p></Link>
             </li>
             <li>
-              <p className="cursor-pointer hover:underline">Projects</p>
-            </li>
-            <li>
-              <p className="cursor-pointer hover:underline">Contact</p>
+              <Link to={"/form"}><p className="cursor-pointer hover:underline">Contact</p></Link>
             </li>
           </ul>
         </div>
