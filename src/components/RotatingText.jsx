@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import "./RotatingText.css"; // optional styles, see below
 
-export default function RotatingText({ texts, rotationInterval = 2000, className = "" }) {
+export default function RotatingText({ texts, rotationInterval = 3000, className = "" }) {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
